@@ -15,6 +15,7 @@ local ThemeManager = {} do
 		['Mint'] 			= { 8, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"3db488","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
 		['Tokyo Night'] 	= { 9, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"191925","AccentColor":"6759b3","BackgroundColor":"16161f","OutlineColor":"323232"}') },
 		['Ubuntu'] 			= { 10, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}') },
+		['Neverlose.cc'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"000f1e","AccentColor":"00b4f0","BackgroundColor":"050514","OutlineColor":"0a1e28"}') },
 	}
 
 	function ThemeManager:ApplyTheme(theme)
